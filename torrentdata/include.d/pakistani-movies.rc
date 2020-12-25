@@ -1,0 +1,5 @@
+# pakistani-movies Movies Old
+schedule = watch_directory_40,5,5,"load_start=/home/user/torrents-files/movies/pakistani-movies/*.torrent,d.set_directory=/home/user/ssd/movies/pakistani-movies/"
+schedule = tied_directory_40,5,5,start_tied=
+schedule = untied_director_40,5,5,stop_untied=
+

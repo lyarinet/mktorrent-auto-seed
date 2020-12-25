@@ -1,0 +1,5 @@
+# Movies Collection
+schedule = watch_directory_1,5,5,"load_start=/home/user/torrentdata/torrentfiles/movies/*.torrent,d.set_directory=/home/user/server/movies-directory/"
+schedule = tied_directory_1,5,5,start_tied=
+schedule = untied_director_1,5,5,stop_untied=
+

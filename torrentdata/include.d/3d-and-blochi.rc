@@ -1,0 +1,16 @@
+# 3D-Movies 3d-Demo
+schedule = watch_directory_1,5,5,"load_start=/home/user/torrents-files/movies/3d-movies/3d-demo/*.torrent,d.set_directory=/home/user/ssd/movies/3d-movies/3d-demo/"
+schedule = tied_directory_1,5,5,start_tied=
+schedule = untied_director_1,5,5,stop_untied=
+# 3D-Movies Movies
+schedule = watch_directory_2,5,5,"load_start=/home/user/torrents-files/movies/3d-movies/3d-movies/*.torrent,d.set_directory=/home/user/ssd/movies/3d-movies/3d-movies/"
+schedule = tied_directory_2,5,5,start_tied=
+schedule = untied_director_2,5,5,stop_untied=
+# Balochi Movies
+schedule = watch_directory_3,5,5,"load_start=/home/user/torrents-files/movies/balochi-movies/balochi-dubing-movies/*.torrent,d.set_directory=/home/user/ssd/movies/balochi-movies/balochi-dubing-movies/"
+schedule = tied_directory_3,5,5,start_tied=
+schedule = untied_director_3,5,5,stop_untied=
+# Balochi Dubed Movies
+schedule = watch_directory_4,5,5,"load_start=/home/user/torrents-files/movies/balochi-movies/balochi-movies/*.torrent,d.set_directory=/home/user/ssd/movies/balochi-movies/balochi-movies/"
+schedule = tied_directory_4,5,5,start_tied=
+schedule = untied_director_4,5,5,stop_untied=
