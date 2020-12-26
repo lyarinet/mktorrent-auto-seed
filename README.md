@@ -1,43 +1,45 @@
 ## mktorrent auto seed
 
 ## install rtorrent or mktorrent
+```sh
 > apt-get install rtorrent -y
-
+```
+```sh
 > apt-get install mktorrent -y
-
+```
 and go to home directory or your `username` directory like 
-
+```sh
 > cd /home/username/
-
+```
 and create a file 
-
+```sh
 > nano .bash_aliases
-
+```
 and paste a code 
-
+```sh
 > alias create-torrent-movies='/home/user/torrentdata/scripts/movies.sh'
-
+```
 and change <code>user</code> to your `username`
 
 and open terminal and type 
-
+```sh
 > source .bash_aliases
-
+```
 download mktorrent-auto-seed and move <code>torrentdata</code> directory to <code> /home/username/ </code>
 
 
 Open All files on any text editor and find `user` and Change `user` to your `username`
 
 open /home/username/.rtorrent.rc file 
-
+```sh
 > nano /home/username/.rtorrent.rc
-
+```
 change all <code>user</code> to your `username` on .rtorrent.rc 
 
 and add a new line to your rtorrent.rc file
-
+```sh
 > import="/home/user/torrentdata/include.rc"
-
+```
 and change `user` to your `username` a line added
 
 and block a line `schedule = watch_directory` to `#schedule = watch_directory`
@@ -75,30 +77,30 @@ use_udp_trackers = yes
 ```
 
 and open a movies.sh file
-
+```sh
 > cd /home/username/torrentdata/scripts/movies.sh
-
+```
 and change `user` to your `username` if your data in `username` directory or change TORRENTS_DROPBOX_PATH data location to your data location like this
-
+```sh
 > TORRENTS_DROPBOX_PATH='/home/user/server/movies-directory/'
-
+```
 to your path location
 
 and TORRENTS_PATH to your rtorrent watch directory change this to your (`*.torrent`) files stored your location 
 
 and change tracker
-
+```sh
 > http://tracker.lyarinet.com:6969/announce
-
+```
 to your tracker URL
 
 
 ```bash markdown
 #!/bin/sh
 ############################################################################
-## Copyright (C) Asif Agaria 2020 - License: GNU GPLv3   		  ##
+## Copyright (C) Asif Agaria 2020 - License: GNU GPLv3   			      ##
 ## Please see: http://www.gnu.org/licenses/gpl.html for legal details,    ##
-## rights of fair usage, the disclaimer and warranty conditions.          ##
+## rights of fair usage, the disclaimer and warranty conditions. 		  ##
 ############################################################################
 
 # The path to where torrent files (*.torrent) are stored.
@@ -138,8 +140,9 @@ done
 ```
 
 and open movies.rc file
-
+```sh
 > nano /home/username/torrentdata/include.d/movies.rc
+```
 
 ```
 # Movies Collection
@@ -180,7 +183,7 @@ note most change next
 > schedule = untied_director_`2`,5,5,stop_untied=
 
 open terminal and type
-
+```sh
 > create-torrent-movies
-
+```
 and enter your torrent files created and move to watch directory auto 
