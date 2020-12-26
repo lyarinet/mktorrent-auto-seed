@@ -98,9 +98,9 @@ to your tracker URL
 ```bash markdown
 #!/bin/sh
 ############################################################################
-## Copyright (C) Asif Agaria 2020 - License: GNU GPLv3   			      ##
+## Copyright (C) Asif Agaria 2020 - License: GNU GPLv3   		  ##
 ## Please see: http://www.gnu.org/licenses/gpl.html for legal details,    ##
-## rights of fair usage, the disclaimer and warranty conditions. 		  ##
+## rights of fair usage, the disclaimer and warranty conditions. 	  ##
 ############################################################################
 
 # The path to where torrent files (*.torrent) are stored.
