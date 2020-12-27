@@ -13,7 +13,7 @@ and go to home directory or your `username` directory like
 ```
 and create a file 
 ```sh
-> nano .bash_aliases
+[root@linux ~]# nano .bash_aliases
 ```
 and paste a code 
 ```sh
@@ -23,7 +23,7 @@ and change <code>user</code> to your `username`
 
 and open terminal and type 
 ```sh
-> source .bash_aliases
+[root@linux ~]# source .bash_aliases
 ```
 download mktorrent-auto-seed and move <code>torrentdata</code> directory to <code> /home/username/ </code>
 
@@ -32,7 +32,7 @@ Open All files on any text editor and find `user` and Change `user` to your `use
 
 open /home/username/.rtorrent.rc file 
 ```sh
-> nano /home/username/.rtorrent.rc
+[root@linux ~]# nano /home/username/.rtorrent.rc
 ```
 change all <code>user</code> to your `username` on .rtorrent.rc 
 
@@ -78,7 +78,7 @@ use_udp_trackers = yes
 
 and open a movies.sh file
 ```sh
-> nano /home/username/torrentdata/scripts/movies.sh
+[root@linux ~]# nano /home/username/torrentdata/scripts/movies.sh
 ```
 and change `user` to your `username` if your data in `username` directory or change TORRENTS_DROPBOX_PATH data location to your data location like this
 ```sh
@@ -141,7 +141,7 @@ done
 
 and open movies.rc file
 ```sh
-> nano /home/username/torrentdata/include.d/movies.rc
+[root@linux ~]# nano /home/username/torrentdata/include.d/movies.rc
 ```
 
 ```
@@ -184,6 +184,6 @@ note most change next
 
 open terminal and type
 ```sh
-> create-torrent-movies
+[root@linux ~]# create-torrent-movies
 ```
 and enter your torrent files created and move to watch directory auto seed
