@@ -78,7 +78,7 @@ use_udp_trackers = yes
 
 and open a movies.sh file
 ```sh
-> cd /home/username/torrentdata/scripts/movies.sh
+> nano /home/username/torrentdata/scripts/movies.sh
 ```
 and change `user` to your `username` if your data in `username` directory or change TORRENTS_DROPBOX_PATH data location to your data location like this
 ```sh
