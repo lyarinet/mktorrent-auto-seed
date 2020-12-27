@@ -186,4 +186,4 @@ open terminal and type
 ```sh
 > create-torrent-movies
 ```
-and enter your torrent files created and move to watch directory auto 
+and enter your torrent files created and move to watch directory auto seed
