@@ -2,14 +2,14 @@
 
 ## install rtorrent or mktorrent
 ```sh
-> apt-get install rtorrent -y
+[root@linux ~]# apt-get install rtorrent -y
 ```
 ```sh
-> apt-get install mktorrent -y
+[root@linux ~]# apt-get install mktorrent -y
 ```
 and go to home directory or your `username` directory like 
 ```sh
-> cd /home/username/
+[root@linux ~]# cd /home/username/
 ```
 and create a file 
 ```sh
